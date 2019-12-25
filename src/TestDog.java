@@ -2,6 +2,9 @@ class Dog {
     private String Name;
     private String Color;
     private int age;
+    public Dog(){
+
+    }
     public Dog(String Name,String Color,int age) {
         this.Name = Name;
         this.Color = Color;
@@ -9,30 +12,37 @@ class Dog {
     }
 
     public String getName() {
+
         return Name;
     }
 
     public void setName(String name) {
+
         Name = name;
     }
 
     public String getColor() {
+
         return Color;
     }
 
     public void setColor(String color) {
+
         Color = color;
     }
 
     public int getAge() {
+
         return age;
     }
 
     public void setAge(int age) {
+
         this.age = age;
     }
 
     public String getInfo() {
+
         return "名字："+this.Name+"\n颜色："+this.Color+"\n年龄："+this.age;
     }
 }
